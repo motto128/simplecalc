@@ -10,7 +10,6 @@
 		9F6C7D0A1F84A9CD00D7E1F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D091F84A9CD00D7E1F5 /* main.swift */; };
 		9F6C7D171F84A9E700D7E1F5 /* SimpleCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D161F84A9E700D7E1F5 /* SimpleCalcTests.swift */; };
 		9F6C7D1C1F84ADEC00D7E1F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D091F84A9CD00D7E1F5 /* main.swift */; };
-		DEA3B8E620101F6E0075D1EB /* SimpleCalcTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C7D141F84A9E700D7E1F5 /* SimpleCalcTests.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,7 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA3B8E620101F6E0075D1EB /* SimpleCalcTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +303,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GQ465435B;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -317,6 +316,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GQ465435B;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
